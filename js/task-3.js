@@ -9,7 +9,7 @@ const profile = {
     this.playTime += saatler;
   },
   getInfo(){
-    return `${this.username} has ${this.playTime}`;
+    return `${this.username} has ${this.playTime} active hours`;
   }
 };
 
